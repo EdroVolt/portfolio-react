@@ -6,6 +6,7 @@ import FloatingButton from "./FloatingButton/FloatingButton";
 import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Portfolio from "./Portfolio/Portfolio";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Skills />
       <Portfolio />
+      <Footer />
     </div>
   );
 }

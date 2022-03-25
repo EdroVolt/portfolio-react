@@ -1,0 +1,51 @@
+.footer {
+  background: #000;
+}
+
+footer h5 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+footer a {
+  color: rgb(150, 150, 150);
+}
+
+.copy-right {
+  background: black;
+}
+
+td:nth-child(odd) {
+  width: 50px;
+}
+
+tr {
+  height: 50px;
+}
+
+footer input {
+  background: none;
+  border: 1px solid white;
+  width: 70%;
+  padding-left: 10px;
+  color: white;
+  border-radius: 0;
+}
+
+/* placeholder */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
