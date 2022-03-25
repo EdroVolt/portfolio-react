@@ -4,6 +4,7 @@ import "./app.css";
 import Header from "./Header/Header";
 import FloatingButton from "./FloatingButton/FloatingButton";
 import About from "./About/About";
+import Skills from "./Skills/Skills";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <FloatingButton />
       <About />
+      <Skills />
     </div>
   );
 }

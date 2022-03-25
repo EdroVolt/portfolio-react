@@ -1,0 +1,12 @@
+.skills-section{
+  background-color: #111;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+.skills-header{
+  letter-spacing: 5px;
+  font-size: 3rem;
+  font-weight: 900;
+  text-decoration: overline;
+}
