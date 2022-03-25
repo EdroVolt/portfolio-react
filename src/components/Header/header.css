@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.cover {
+  height: 100vh;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.cover-title{
+  width: 50vw;
+  background-color: rgba(10, 10, 10, .7);
+  padding: 10px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.cover-image{
+  filter: blur(1px);
+}
+
+.cover-title > h1 {
+  color: yellow;
+  font-size: 4rem;
+}
