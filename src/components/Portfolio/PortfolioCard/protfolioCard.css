@@ -1,0 +1,9 @@
+.portfolio-card{
+  cursor: pointer;
+  transition: 1s;
+  box-shadow: 1px 1px 5px #000;
+}
+
+.portfolio-card:hover{
+  transform: scale(1.15);
+}
