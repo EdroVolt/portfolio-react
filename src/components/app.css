@@ -1,0 +1,10 @@
+.main-question{
+  color: yellow;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.section{
+  padding: 100px 20px;
+}
